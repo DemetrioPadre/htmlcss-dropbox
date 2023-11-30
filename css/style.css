@@ -1,5 +1,41 @@
+/*RESET*/
+
+
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 5px; 
+     color: grey;
+
+}
+
+ul{
+ list-style: none;
+
+}
+a{
+text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+
+.nav-left{
+   
+    
+
+
 }
