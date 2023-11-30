@@ -2,12 +2,13 @@
 
 
 *{
-    margin: 5px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 
 header{
+    height: 80px;
     
 }
 
@@ -16,26 +17,35 @@ header{
     width: 100%;
     min-height: 80px;
     display: flex;
-    align-items: center;
     margin: 5px; 
-     color: grey;
-
+    align-items: center;
+    justify-content:space-around;
 }
 
-ul{
- list-style: none;
-
-}
 a{
 text-decoration: none;
+color:grey;
+margin:20px;
 }
-li{
-    display: inline-block;
-}
+
 
 .nav-left{
-   
-    
+    padding: 30px;
+    color: grey;
+    flex-grow: 3;
+}
 
+.logo{
+    flex-grow: 1;
+    margin-left: 20px;
+}
 
+.nav-right{
+    flex-grow: 1;
+}
+.header-btn{
+    background-color: aqua;
+
+    padding: 5px;
+    border-radius: 5px;
 }
