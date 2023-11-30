@@ -45,11 +45,63 @@ margin:20px;
 }
 .header-btn{
     background-color:#0061ff;
-
+    color: white;
     padding: 5px;
     border-radius: 5px;
 }
 
 .jumbotron{
+min-height: 200px;
+height: 100%;
+}
+
+.jumbotron-header-container{
+    width: 100%;
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
     
+}
+ h1{
+    margin-top: 50px;
+    font-size: 80px;
+    line-height:80px
+ }
+/*img{
+    height: 50%;
+    position: relative;
+    z-index: 6;   
+}*/
+ 
+.jumbotron-container{
+   
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content:flex-start;
+    height:500px;
+}
+
+/*section > .jumbotron-container .jumbo-small-col{
+    flex-basis: 40%;
+}
+
+section > .jumbotron-container .jumbo-big-col{
+    flex-basis: 60%;
+
+}*/
+main > section > .jumbo-small-col
+main > section > .jumbo-big-col {
+    height: 400px;
+}
+.jumbo-p{
+    margin-left:
+}
+
+.jumbo-big-col{
+    background-image: url(..//img/img/jumbo.png);
+    width: 60%;
+    background-size: cover;
+}
+.jumbo-small.col{
+    width: 40%;
 }
