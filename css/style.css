@@ -12,7 +12,7 @@ header{
     
 }
 
-.container{
+.header-container{
     background-color: white;
     width: 100%;
     min-height: 80px;
@@ -44,8 +44,12 @@ margin:20px;
     flex-grow: 1;
 }
 .header-btn{
-    background-color: aqua;
+    background-color:#0061ff;
 
     padding: 5px;
     border-radius: 5px;
+}
+
+.jumbotron{
+    
 }
