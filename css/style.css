@@ -1,10 +1,15 @@
 /*RESET*/
 
-
 *{
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -19,8 +24,38 @@ header{
 }
 .debug *{
     border: 1px dashed beige;
+}
+/* utils */
+
+.container{
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 
 }
+.d-flex{
+    display: flex;
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+
+ .col-30{
+    width: 30%;
+ }
+ .col-70{
+    width: 70%;
+
+ }
+
+/* header */
 
 .header-container{
     background-color:white;
