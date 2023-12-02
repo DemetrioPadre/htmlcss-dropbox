@@ -73,7 +73,7 @@ header{
  .col{
     width: 100%;
  }
- 
+
 a{
 text-decoration: none;
 color:inherit;
@@ -193,3 +193,30 @@ margin:20px;
     width: 100%;
     display: flex;
 }
+
+    /* PARTNER */
+#partner > .container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+h2{
+    margin-top: 80px ;
+}
+
+.button-prtn{
+    border: 1px solid black;
+    
+}
+
+#tools > .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+
+}
+
