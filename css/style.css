@@ -14,8 +14,10 @@ ul{
 }
 
 li{
+    font-size: small;
     
 }
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +29,7 @@ header{
 }
 
 /* debug */
-.debug{
+/*.debug{
     min-height: 80px;
     border: 3px dashed blue;
     padding: 1rem;
@@ -35,7 +37,7 @@ header{
 .debug *{
     border: 1px solid black;
     padding: 1rem;
-}
+}*/
 /* utils */
 
 .container{
@@ -49,6 +51,7 @@ header{
     background-color: #0061ff;
     display: inline-block;
     padding: 10px;
+    color: white;
     
 }
 
@@ -85,6 +88,10 @@ a{
 text-decoration: none;
 color:inherit;
 margin:20px;
+}
+
+h3{
+    padding-top: 30px;
 }
 
 /* header */
@@ -193,9 +200,9 @@ margin:20px;
     flex-wrap: wrap;
      
 }
-#business .card{
+#business .col-30{
     flex-grow: 1;
-    border: 1px solid #555;
+    border: 1px solid #d3d3d6;
 
 }
 .card{
@@ -207,11 +214,27 @@ margin:20px;
     min-height: 250px;
 }
 .header-card{
-    border-bottom: 1px solid inherit;
+    border-bottom: 1px solid #d3d3d6 ;
     text-align: center;
+    padding: 3px;
+    height: 30px;
 }
 .body-card{
     padding:0 15px;
+    line-height: 30px;
+}
+
+.p-col-grey{
+    color:#d3d3d6 ;
+}
+#span-bord-btm{
+    border-bottom: 1px solid #d3d3d6 ;
+    padding-bottom: 20px;
+    
+}
+#link-card{
+    color:#2727f0 ;
+    text-decoration: underline;
 }
 #business .card:last-child{
     width: 100%;
