@@ -388,10 +388,7 @@ border: none;
     flex-wrap: wrap;
 }
 
-.container-foot{
-    width: 100%;
-   height: 600px;
-}
+
 .header-card-question{
     width: 30%;
     text-align: center;
@@ -429,10 +426,28 @@ line-height: 50px;
     flex-wrap: wrap;
 }
 
-.col-20-foot{
-    line-height: 20px;
+.header-col-20{
+    line-height: 40px;
+    font-size:large;
 }
 
+.container-foot{
+    width: 100%;
+   height: 400px;
+   
+}
+.ul-foot{
+    color: #999898;
+}
+
+
+.earth{
+    
+    border-top: 1px solid #999898;
+    color: #999898;
+    padding-top: 40px;
+    
+}
 
 
 
