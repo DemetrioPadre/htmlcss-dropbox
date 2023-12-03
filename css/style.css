@@ -82,7 +82,7 @@ header{
  }
  .col-100{
     width: 100%;
-    display: inline-block;
+    
  }
 
 a{
@@ -216,12 +216,14 @@ h3{
     min-height: 250px;
 }
 .header-card{
-    border-bottom: 1px solid #d3d3d6 ;
+    border: 1px solid #d3d3d6 ;
     text-align: center;
     padding: 3px;
     height: 30px;
 }
 .body-card{
+    border: 1px solid #d3d3d6 ;
+
     padding:0 15px;
     line-height: 30px;
 }
@@ -243,25 +245,54 @@ h3{
     display: flex;
 }
 
+.title-col-100{
+    margin-top:20px ;
+    margin-left: 5px;
+}
+#h3-col-100{
+    margin-top: 20px;
+}
+.p-col-100{
+    color: #48484a;
+
+}
+.btn-col-100{
+    background-color: #0061ff ;
+    padding: 10px;
+    margin-left: 750px;
+    
+}
+
+
     /* PARTNER */
 #partner > .container{
     display: flex;
     justify-content: space-between;
-    
-
+}
+#partner{
+    margin-top:150px ;
 }
 
 h2{
     margin-top: 80px ;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
 }
 
 .button-prtn{
     border: 1px solid black;
-    cursor: pointer;
     padding: 10px;
-    border-top: 40px;
-    
+    background-color:transparent;
+    margin-left: 40px;
+    color:#48484a ;
 }
+.p-prtn{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #48484a;
+}
+
 
 /* TOOLS*/
 
@@ -391,7 +422,7 @@ line-height: 50px;
 /* FOOTER*/
 
 
-#footer > .container{
+#footer > .container-foot{
     background-color: black;
     color: white;
     display: flex;
