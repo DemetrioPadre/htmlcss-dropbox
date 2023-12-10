@@ -26,11 +26,14 @@ body{
 
 header{
     height: 80px;
+   
+   
     
 }
 
 /* debug */
-/*.debug{
+/**/
+.debug{
     min-height: 80px;
     border: 3px dashed blue;
     padding: 1rem;
@@ -38,7 +41,7 @@ header{
 .debug *{
     border: 1px solid black;
     padding: 1rem;
-}*/
+}
 /* utils */
 
 .container{
@@ -103,12 +106,12 @@ h3{
     width: 100%;
     min-height: 80px;
     display: flex;
-    margin: 5px; 
     justify-content:space-around;
     align-items: center;
     gap: 15px;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 
@@ -153,7 +156,8 @@ h3{
  h1{
     margin-top: 50px;
     font-size: 80px;
-    line-height:80px
+    line-height:80px;
+    padding-top: 40px;
 
  }
 
@@ -170,7 +174,7 @@ h3{
 
 #jumbo .overflow-img{
     position: relative;
-    top: 65px;
+    top:100px;
 }
 
 .jumbo-btn{
@@ -188,7 +192,8 @@ h3{
 }
 
 .arrow-jmb{
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -201,6 +206,28 @@ h3{
     gap: 15px;
     flex-wrap: wrap;
      
+}
+.radio-btn{
+    display: block;
+    height: 100px;
+   
+    
+
+
+}
+
+.btn-radio{
+    font-size: xx-large;
+    margin-left:180px ;
+    line-height: 60px;
+}
+
+
+#radio-btn{
+    margin-left: 180px;
+    line-height: 60px;
+    
+   
 }
 #business .col-30{
     flex-grow: 1;
@@ -222,7 +249,7 @@ h3{
     height: 30px;
 }
 .body-card{
-    border: 1px solid #d3d3d6 ;
+    /* border: 1px solid #d3d3d6 ; */
 
     padding:0 15px;
     line-height: 30px;
@@ -331,6 +358,7 @@ h2{
 
 .all-container{
     width: 1200px;
+    display: flex;
 }
 
 
