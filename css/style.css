@@ -203,7 +203,7 @@ h3{
 #business > .container {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 50px;
     flex-wrap: wrap;
      
 }
@@ -249,7 +249,7 @@ h3{
     height: 30px;
 }
 .body-card{
-    /* border: 1px solid #d3d3d6 ; */
+    border: 1px solid #d3d3d6 ;
 
     padding:0 15px;
     line-height: 30px;
@@ -272,6 +272,10 @@ h3{
     display: flex;
 }
 
+.enterprise{
+    display: flex;
+}
+
 .title-col-100{
     margin-top:20px ;
     margin-left: 5px;
@@ -283,10 +287,13 @@ h3{
     color: #48484a;
 
 }
-.btn-col-100{
+.btn-col-30{
     background-color: #0061ff ;
     padding: 10px;
-    margin-left: 750px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+    
     
 }
 
